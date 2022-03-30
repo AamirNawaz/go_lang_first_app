@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+//main function
 func main() {
 	fmt.Println("server started listing..")
 	http.HandleFunc("/", HelloServer)
